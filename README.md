@@ -10,9 +10,11 @@ Module 9 Assignment
     - <ins>salaries.csv</ins> - contains employee ID number and the salary they get
     - <ins>titles.csv</ins> - contains the ID number associated with each position title name
 
-- In the main folder, there is an <ins>ERD (entity relationship diagram)</ins> file which displays the diagram of the relationship between the tables in this project that were imported from the CSV files mentioned above
+- In the main folder, there is a <ins>TableSchema.sql0</ins> which creates and initiates table schema with the proper columns, primary keys, composite keys, and foreign keys to establish proper relationships
 
-![erd](https://github.com/user-attachments/assets/94e4ac37-0315-482d-a73b-daff6f32fd02)
+- Also in the main folder, an image file displaying the above information in a graphical / diagram format exists as well.  This is the ERD (entity relationship diagram).  
+
+![Entity Relationship Diagram](https://github.com/user-attachments/assets/9a18b752-dd28-4332-96af-1c40b3f19e52)
 
 - The main code file <ins>PewlettHackwardEmployeeQuery.sql</ins> performs the below operations
     - Deletes the 6 tables if they exist to make sure we are starting with fresh data
