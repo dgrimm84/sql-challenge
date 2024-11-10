@@ -12,6 +12,8 @@ Module 9 Assignment
 
 - In the main folder, there is an <ins>ERD (entity relationship diagram)</ins> file which displays the diagram of the relationship between the tables in this project that were imported from the CSV files mentioned above
 
+![erd](https://github.com/user-attachments/assets/94e4ac37-0315-482d-a73b-daff6f32fd02)
+
 - The main code file <ins>PewlettHackwardEmployeeQuery.sql</ins> performs the below operations
     - Deletes the 6 tables if they exist to make sure we are starting with fresh data
     - Creates tables named dept_manager, employees, departments, salaries, titles, and dept_emp with columns matching the CSV file columns with appropriate data types
