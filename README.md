@@ -19,7 +19,8 @@ Module 9 Assignment
 - The main code file <ins>PewlettHackwardEmployeeQuery.sql</ins> performs the below operations
     - Deletes the 6 tables if they exist to make sure we are starting with fresh data
     - Creates tables named dept_manager, employees, departments, salaries, titles, and dept_emp with columns matching the CSV file columns with appropriate data types
-    -  Use the select function and proper arguments to list the employee number, last name, first name, sex, and salary of each employee
+    - Using pgAdmin, I used the Import function to insert the data from CSV files in the data folder into the tables created above
+    - Use the select function and proper arguments to list the employee number, last name, first name, sex, and salary of each employee
 
   ![image](https://github.com/user-attachments/assets/3a071418-4f52-4735-9994-00f141d5e865)
 
