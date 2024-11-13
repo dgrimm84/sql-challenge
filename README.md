@@ -31,7 +31,7 @@ Module 9 Assignment
 
    - Use the select function and proper arguments to list the manager of each department along with their department number, department name, employee number, last name, and first name
  
-  ![3](https://github.com/user-attachments/assets/4bc08fe8-d5e3-4c76-acca-b0b9a482b447)
+    ![dept_manager](https://github.com/user-attachments/assets/be7e2e48-4005-4b59-ba28-6d04a06cce29)
 
   - Use the select function and proper arguments to list the department number for each employee along with that employee’s employee number, last name, first name, and department name
  
