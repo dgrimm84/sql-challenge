@@ -22,7 +22,7 @@ CREATE TABLE employees (
 	last_name VARCHAR NOT NULL,
 	sex VARCHAR NOT NULL,
 	hire_date date NOT NULL,
-	PRIMARY KEY (emp_no)
+	FOREIGN KEY (emp_no) REFERENCE dept_emp(emp_no)
 );
 
 --create departments table to load departments csv 
@@ -30,6 +30,8 @@ CREATE TABLE departments (
 	FOREIGN KEY (dept_no) REFERENCES dept_manager(dept_no),
 	dept_name VARCHAR NOT NULL
 );
+
+select * from departments
 
 --create salaries table to load salaries csv
 CREATE TABLE salaries (
@@ -47,6 +49,7 @@ CREATE TABLE titles (
 CREATE TABLE dept_emp (
 	emp_no INTEGER NOT NULL,
 	dept_no VARCHAR NOT NULL
+	PRIMARY KEY (emp_no, dept_no)
 );
 
 --List the employee number, last name, first name, sex, and salary of each employee.
