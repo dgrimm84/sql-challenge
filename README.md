@@ -14,8 +14,7 @@ Module 9 Assignment
 
 - Also in the main folder, an image file displaying the above information in a graphical / diagram format exists as well.  This is the ERD (entity relationship diagram).  
 
-    ![Entity Relationship Diagram](https://github.com/user-attachments/assets/1da3d162-8ae9-459a-9124-3b8bcb4c095b)
-
+![Entity Relationship Diagram](https://github.com/user-attachments/assets/8b0e9a26-cf1d-492a-80d0-f594b34e8bb1)
 
 - The main code file <ins>PewlettHackwardEmployeeQuery.sql</ins> performs the below operations
     - Deletes the 6 tables if they exist to make sure we are starting with fresh data
